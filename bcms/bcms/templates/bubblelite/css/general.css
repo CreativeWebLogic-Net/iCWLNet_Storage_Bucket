@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #000;
+	background-image: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/body-bg.jpg);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#606060;
+	font-size:11px;
+}
+
+a{
+	color:#39495a;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover{
+	color:#333;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+h2{
+	color:#39495a;
+	font-size:15px;
+	margin:0px;
+	padding:0px;
+}
+
+#MainBodyCentered{
+	width:985px;	
+	margin: 0px auto;
+}
+#HeaderHolder{
+	width:985px;
+	height:334px;
+}
+#HeaderLogo{
+	width:985px;
+	height:100px;
+	background-image: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/header-logo.jpg);
+	background-repeat:no-repeat;
+}
+#MainMenu{
+	background: #000 url(https://assets.w-d.biz/bcms/templates/bubblelite/images/menu-left-tab.gif) left top no-repeat;
+	width:985px;
+	height:32px;
+	text-align:left;
+	background-color:#000;
+	color:#303030;
+}
+#navigation{
+	background: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/menu-right-tab.gif) right top no-repeat;
+	width:984px;
+	height:25px;
+	padding-top:8px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-left: 1px;
+}
+#navigation a
+{
+color: #FFF;
+text-decoration: none;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#navigation a span
+{
+padding-right: 10px;
+padding-top: 8px;
+padding-bottom: 10px;
+}
+
+#navigation a:hover
+{
+color: #000;
+background: #FFF url(https://assets.w-d.biz/bcms/templates/bubblelite/images/left-tab-hover.gif) left top no-repeat;
+padding-left: 10px;
+padding-top: 6px;
+padding-bottom: 10px;
+}
+
+#navigation a:hover span
+{
+background: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/right-tab-hover.gif) right top no-repeat;
+padding-right: 10px;
+padding-top: 6px;
+padding-bottom: 10px;
+}
+
+#HeaderImage{
+	width:985px;
+	height:202px;
+	background-image: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/header-image.jpg);
+	background-repeat:no-repeat;
+}
+#ContentHolder{
+	width:985px;
+	background-image: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/content-bg.jpg);
+	background-repeat:repeat-y;
+	
+}
+#ContentBody{
+	width:985px;
+	background-image: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/content-header.jpg);
+	background-repeat:no-repeat;
+	text-align:left;
+}
+#LeftColumn{
+	float:left;
+	width:700px;
+	padding:15px;
+}
+#RightColumn{
+	float:right;
+	width:220px;
+	padding:15px;
+}
+#ContentFooter{
+	width:985px;
+	height:10px;
+	background-image: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/content-footer.jpg);
+	background-repeat:no-repeat;
+}
+#FooterHolder{
+	width:965px;
+	height:63px;
+	padding-left:10px;
+	padding-right:10px;
+}
+#FooterContent{
+	width:945px;
+	height:28px;
+	padding:10px;	
+	padding-top:25px;
+	background-image: url(https://assets.w-d.biz/bcms/templates/bubblelite/images/footer-bg.jpg);
+	background-repeat:no-repeat;
+}
+#FooterLinks{
+	text-align:right;
+	
+	color:#FFF;
+}
+#FooterLinks a{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#FooterLinks a:hover{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+/*----------------------------------------- Contact Form-------------------------*/
+#contact-table{
+	background-color:#39495a;
+}

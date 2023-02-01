@@ -1,0 +1,136 @@
+html, body {
+margin : 0;
+padding : 0;
+}
+body {
+font : 73% "lucida sans", "Trebuchet MS", Arial, Helvetica, Tahoma, sans-serif;
+color : #a52a2a;
+background : #2e2e2e url(https://assets.w-d.biz/bcms/templates/bubble/images/bg.jpg) repeat top center;
+}
+#container {
+width : 750px;
+margin : 0 auto;
+padding : 0;
+line-height : 1.5em;
+background : #eee;
+color : #666;
+}
+#top {
+height : 350px;
+margin : 0;
+padding : 0;
+background : #ad6743 url(https://assets.w-d.biz/bcms/templates/bubble/images/top.jpg);
+color : #000;
+}
+#top h1 {
+padding : 10px;
+margin : 0;
+font : bold 90% "lucida sans", Helvetica, "Trebuchet MS", arial, Tahoma, sans-serif;
+letter-spacing : 5px;
+text-align : right;
+color : #000;
+background : inherit;
+}
+#leftnav {
+line-height : 2em;
+float : left;
+width : 180px;
+margin : 0;
+padding : 0;
+color : #666;
+background : #f7f7f7 url(https://assets.w-d.biz/bcms/templates/bubble/images/side.jpg) no-repeat top center;
+}
+#content {
+margin : 0 0 20px 190px;
+padding : 0;
+}
+#content p {
+margin : 0 25px 5px 15px;
+}
+#content p a {
+text-decoration : none;
+background : inherit;
+color : #286E87;
+}
+#content p a:hover {
+text-decoration : underline;
+color : #818181;
+background : inherit;
+}
+#footer {
+clear : both;
+margin : 0;
+padding : 0.5em;
+color : #fff;
+background : #286e87;
+}
+#leftnav p {
+margin : 10px;
+}
+h2 {
+margin : 0 0 20px 0;
+padding : 10px;
+font-size : 140%;
+letter-spacing : 5px;
+color : #286e87;
+background : inherit;
+}
+h3 {
+margin : 0;
+padding : 20px 0 10px 20px;
+font-size : 140%;
+text-transform : none;
+color : #fff;
+background : inherit;
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+#footer img {
+float : right;
+}
+*> html #footer img {
+margin : 0;
+}
+a:link, a:visited {
+color : #000;
+background : inherit;
+text-decoration : none;
+}
+a:hover {
+text-decoration : none;
+color : #ccc;
+background : inherit;
+}
+a:active {
+text-decoration : none;
+color : #fff;
+background : inherit;
+}
+#navlist li {
+list-style-type : square;
+background : inherit;
+color : #286e87;
+margin : 0 15px 0 0;
+padding : 0;
+}
+.gallery {
+height : 100px;
+}
+#gallery img {
+float : left;
+padding : 10px;
+}
+img {
+border : none;
+}
+.quotebox {
+margin : 10px;
+border : 1px solid #fff;
+padding : 20px;
+color : #fff;
+background : #818181;
+font-size : 0.9em;
+}
