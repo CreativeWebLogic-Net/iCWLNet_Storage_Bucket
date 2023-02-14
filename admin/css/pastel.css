@@ -1,0 +1,128 @@
+/*font family for page. If you have another style sheet that sets font family, you can delete this rule*/
+div, td, p {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+/*Control DIV for expand all and collapse all links*/
+#p7TMctrl {
+	margin: 0 0 12px 0;
+	font-size: 10px;
+	display: none;
+	/*/*/display: block; /* Hide from NN4*/
+}
+#p7TMctrl a:link {
+	color: #333333;
+}
+#p7TMctrl a:visited {
+	color: #333333;
+}
+#p7TMctrl a:hover {
+	color: #333333;
+}
+
+/*Sets line-height of all menuitems*/
+#p7TMnav {
+	/*/*/line-height: 1.5; /* */
+}
+/*Sets background color and border around the menu DIV*/
+#p7TMnav {
+	border: 1px solid #666;
+	border-bottom: 0;
+}
+#p7TMnav div {
+	/*/*/background-color:#F2960D; /* #363E57 #A4AFC1 */
+	
+}
+
+/*second level menuitem divs*/
+/*Sets left margin to 12px establishing a cascading indent*/
+/*Sets border and bg color to establish the pastel BOXES*/
+#p7TMnav div div {
+	margin: 0 0 0 12px;
+	/*/*/border-left: 1px solid #666;
+	background-color: #EEEEEE; /* */
+}
+
+/*third level menuitem divs. Sets BOX color*/
+#p7TMnav div div div {
+	/*/*/background-color: #BBBBBB; /* */
+}
+/*fourth level menuitem divs. Sets BOX color*/
+#p7TMnav div div div div {
+	/*/*/background-color: #CCCCCC; /* */
+}
+/*fifth level menuitem divs. Sets BOX color. Cascades to lower levels*/
+/*To set additional level color BOXES, add a new selector with an additional -div- appended*/
+#p7TMnav div div div div div {
+	/*/*/background-color: #C0C0C0; /* */
+}
+
+/*The Link style for top-level menuitems and is read by all browsers*/
+#p7TMnav div a {
+	color:#FFFFFF ; /* #333333*/
+	font-size: 10px;
+}
+/*The Link style for top-level menuitems hidden from Netscape 4*/
+#p7TMnav div a {
+	/*/*/border-top: 1px solid #DDDEE8;
+	border-right: 0px solid;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #DDDEE8;
+	text-decoration: none;
+	background-color: transparent;
+	display: block;
+	padding: 2px 0 2px 12px; /* */
+}
+#p7TMnav div a:visited {
+	color: #333333;
+}
+#p7TMnav div a:hover {
+	background-color: #363E57;/* #94A0B6*/
+	color: #FFFFFF;
+}
+
+/*The Link styles for second-level menuitems*/
+#p7TMnav div div a {
+	font-size: 10px;
+	color: #333333;
+}
+#p7TMnav div div a:hover {
+	color: #FFFFFF;
+	background-color: #C5C6D8;
+}
+
+/*The Link style for third-level menuitems and lower*/
+/*To set a specific style for the fourth level, add a div to the selector*/
+/*Fourth-level example syntax: p7TMnav div div div div a {declaration}*/
+#p7TMnav div div div a {
+	font-size: 10px;
+}
+
+/*rules programatically assigned to parent links when image-based plus and minus option is selected. The padding on the 4 following rules supercedes (via !important) the padding on the p7TMnav div a selector when you've chosen the option to use images for the plus and minus signs*/
+.p7plusmark {
+	background-repeat: no-repeat;
+	background-image:    url(https://assets.creativeweblogic.net/admin/images/p7t_plus.gif);
+	background-position: 8px 50%;
+	padding: 0 0 0 20px !important;
+}
+.p7minusmark {
+	background-repeat: no-repeat;
+	background-image:    url(https://assets.creativeweblogic.net/admin/images/p7t_minus.gif);
+	background-position: 8px 50%;
+	padding: 2px 0 2px 20px !important;
+}
+
+/*rule programatically assigned to child links when image-based plus and minus option is selected*/
+.p7defmark {
+	background-image:  none;
+	padding: 2px 0 2px 20px !important;
+}
+
+/*rules programatically assigned to page link correesponding to current page (You are Here)*/
+.p7currentmark {
+	font-weight: bold;
+	letter-spacing: 3px;
+	background-color: transparent !important;
+	color: #FFFFFF !important;
+	padding: 2px 0 2px 20px !important;
+}

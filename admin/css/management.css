@@ -1,0 +1,454 @@
+body {
+	margin: 0px;
+	background-color: #000;
+	background-image: url(https://assets.creativeweblogic.net/admin/images/body-bg.jpg);
+	background-repeat: repeat-x;
+}
+td, p, div, input, select, textarea {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #363E57;
+}
+
+a:link, a:active, a:visited {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #363E57;
+	text-decoration: underline;
+}
+a:hover{
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #363E57;
+	text-decoration: none;
+}
+
+.formfield1 {
+	width: 220px;
+	border: 1px solid #7C7C7C;
+	font-family      : Verdana, Arial, Helvetica, sans-serif;
+    font-size        : 10px;
+    color            : #363E57;
+}
+.formfield2 {}
+
+
+hr {
+  background       : #999999;
+  height           : 1px;
+  width            : 100%;
+}
+#tab, #tab a:link, #tab a:active, #tab a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 4px;
+	padding-left: 3px;
+}
+#tab a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #4E597C;
+	text-decoration: none;
+}
+
+
+.searchfield {
+	font-size: 10px;
+	color: #344356;
+	border: 1px solid #344356;
+	background-color: #FFFFFF;
+	width: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #F2960D;
+}
+.border {
+	border: 1px solid #FFFFFF;
+}
+#submenu a:link, #submenu a:active, #submenu a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #344356;
+	text-decoration: none;
+}
+.loggedin {
+	color: #FFFFFF;
+}
+.searchbutton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #363E57;
+	border: 1px solid #363E57;
+}
+.searchdropdown {
+
+	font-size: 11px;
+	color: #344356;
+	border: 1px solid #344356;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#table{
+	background-color:#363E57;
+}
+.tabletitle {
+	color: #000;
+	background-color:#B2C8D8;
+}
+tr.tabletitle {
+	color: #000;
+	background-color:#B2C8D8;
+}
+.tablewhite {
+	color: #000;
+	background-color:#FFF;
+}
+tr.row1{
+	background-color: #E5E5E5;
+}
+tr.row2{
+	background-color: #EEEEEE;
+}
+.login {
+	color: #5E6579;
+	text-decoration: none;
+}
+.loginwhite {
+	color: #FFFFFF;
+}
+.loginfield {
+	font-size: 10px;
+	color: #363E57;
+	background-color: #FFFFFF;
+	width: 170px;
+	border: 1px solid #FFFFFF;
+}
+.loginbutton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color:#333;
+	border: 1px solid #FFF;
+}
+.sitename {
+	font-size: 14px;
+	font-weight: bold;
+	color: #363E57;
+}
+
+.RedText {
+	color: #FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#tablecell tr{
+	background: #ebebeb;
+}
+
+.formbuttons {
+	background-color: #363E57;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 1px;
+	font-weight: bold;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #CCCCCC;
+}
+
+
+
+/* main menu start */
+div#mainmenu  {
+	padding-left: 10px;
+}
+#mainmenu ul{
+	list-style-type: none;
+	background-color: #EEEEEE;
+	list-style-image: url(https://assets.creativeweblogic.net/admin/images/arrow2.gif);
+	margin-left: 5px;
+	padding-left: 5px;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+} 
+#mainmenu .heading {
+	font-weight: bold;
+	color: #363E57;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+#mainmenu div a:link, #mainmenu ul a:active, #mainmenu ul a:visited {
+	color: #58668D;
+	text-decoration: none;
+	list-style-image: url(https://assets.creativeweblogic.net/admin/images/arrow1.gif);
+}
+#mainmenu ul a:hover {
+	color: #6979A3;
+	text-decoration: none;
+}
+
+/* main menu end */
+
+a.buttonbacklist:link, a.buttonbacklist:active, a.buttonbacklist:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #59658E;
+	border: 1px solid #434D6B;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+
+}
+/* structure  start */
+div#structure  {
+	padding-left: -30px;
+}
+#structure li{
+	list-style-type: square;
+	margin-left: -25px;
+}
+
+/* structure end */
+.rightbg {
+	border: 1px solid #C9CACA;
+	background-color:#FFF;
+	background-image:url(https://assets.creativeweblogic.net/admin/images/content-bg.jpg);
+	background-repeat:repeat-x;
+}
+/*===========================================MENU=====================================================*/
+/*font family for page. If you have another style sheet that sets font family, you can delete this rule*/
+div, td, p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*Control DIV for expand all and collapse all links*/
+#p7TMctrl {
+	margin: 0 0 12px 0;
+	font-size: 10px;
+	display: block;
+	/*/*/display: block; /* hide from NN4*/
+}
+#p7TMctrl a:link {
+	/*color: #333333;*/
+	color: #363E57;
+}
+#p7TMctrl a:visited {
+	color: #333333;
+}
+#p7TMctrl a:hover {
+	color: #66CC00;
+}
+
+
+/*Sets line-height of all menuitems*/
+#p7TMnav {
+	/*/*/line-height: 1.5; /* */
+}
+
+/*second level menuitem divs on - Cascades to lower levels*/
+/*Sets left margin to 16px establishing a cascading indent*/
+#p7TMnav div div {
+	margin: 0 0 0 16px;
+}
+
+/*The Link style for top-level menuitems*/
+#p7TMnav div a {
+	color: #333333;
+	font-size: 10px;
+	font-weight: bold;
+	color: #363E57;
+	padding: 0;
+}
+#p7TMnav div a:visited {
+	color: #666666;
+}
+#p7TMnav div a:hover {
+	/*color: #66CC00;*/
+	color: #6979A3;
+}
+
+/*The Link style for second-level menuitems*/
+#p7TMnav div div a {
+	font-size: 10px;
+}
+
+/*The Link style for third-level menuitems and lower*/
+/*To set a specific style for the fourth level, add a div to the selector*/
+/*Fourth-level example syntax: p7TMnav div div div div a {declaration}*/
+#p7TMnav div div div a {
+	font-size: 10px;
+}
+
+/*rules programatically assigned to parent links when image-based plus and minus option is selected*/
+/*do not remove*/
+.p7plusmark {
+	background-repeat: no-repeat;
+	/*background-image:   url(../images/arrow2.gif); p7t_plus.gif */
+	background-position: 0 50%;
+	padding: 0 0 0 20px !important;
+}
+.p7minusmark {
+	background-repeat: no-repeat;
+	/*background-image:   url(../images/arrow2.gif); p7t_minus.gif */
+	background-position: 0 50%;
+	padding: 0 0 0 20px !important;
+}
+/*rule programatically assigned to child links when image-based plus and minus option is selected*/
+.p7defmark {
+	background-image:  none;
+	padding: 0 0 0 20px !important;
+}
+
+/*rules programatically assigned to page link correesponding to current page (You are Here)*/
+.p7currentmark {
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+	margin: 0 0 0 20px;
+	color: #F2960D !important;/*#666666*/
+}
+#nolink a{
+	text-decoration: none;
+}
+#nolink a:hover{
+	text-decoration: underline;
+}
+#ManagementFooter{
+	background-color:#000;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bold;
+	padding:10px;
+}
+#ManagementFooter a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#ManagementFooter a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#CCC;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#ManagementHeader{
+	height:75px;
+	width:100%;
+	background-image: url(https://assets.creativeweblogic.net/admin/images/logo-bcmslite-big.jpg);
+	background-repeat:no-repeat;
+}
+#ManagementHeaderLeftColumn{
+	float:left;
+}
+#ManagementHeaderRightColumn{
+	float:right;
+	text-align:right;
+	padding:5px;
+}
+.whitetextbold {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.hidden{
+	display:none;	
+}
+.redwarningtextbold {
+	color:#E45A5E;
+	font-weight: bold;
+}
+
+#MainMenuManagement{
+	background: #000 url(https://assets.creativeweblogic.net/admin/images/menu-left-tab.gif) left top no-repeat;
+	height:32px;
+	text-align:left;
+	color:#303030;
+}
+
+#ManagementMainMenu{
+	background: url(https://assets.creativeweblogic.net/admin/images/menu-right-tab.gif) right top no-repeat;
+
+	height:26px;
+	padding-top:7px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-left: 1px;
+}
+#ManagementMainMenu a
+{
+color: #FFF;
+text-decoration: none;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#ManagementMainMenu a span
+{
+padding-right: 10px;
+padding-top: 8px;
+padding-bottom: 10px;
+}
+
+#ManagementMainMenu a:hover
+{
+color: #000;
+background: #FFF url(https://assets.creativeweblogic.net/admin/images/left-tab-hover.gif) left top no-repeat;
+padding-left: 10px;
+padding-top: 6px;
+padding-bottom: 10px;
+}
+
+#ManagementMainMenu a:hover span
+{
+background: url(https://assets.creativeweblogic.net/admin/images/right-tab-hover.gif) right top no-repeat;
+padding-right: 10px;
+padding-top: 6px;
+padding-bottom: 10px;
+}
+.ManagementContentLeftColumn{
+	background-color:#cae0e8;
+}
+.ManagementContentLeftColumnLinks td div{
+	border-bottom:solid 1px #b8ccd3;
+	width:90%;
+	padding-bottom:3px;
+}
+.ManagementContentLeftColumnLinks td div a{
+	color:#0c91d4;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+.ManagementContentLeftColumnLinks td div a:hover{
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.ManagementLoginBox td{
+	color:#FFF;
+}
