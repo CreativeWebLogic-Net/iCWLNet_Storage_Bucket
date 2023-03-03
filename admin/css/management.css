@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	background-color: #000;
-	background-image: url(https://assets.creativeweblogic.net/admin/images/body-bg.jpg);
+	background-image: url(https://static-assets.site/admin/images/body-bg.jpg);
 	background-repeat: repeat-x;
 }
 td, p, div, input, select, textarea {
@@ -178,7 +178,7 @@ div#mainmenu  {
 #mainmenu ul{
 	list-style-type: none;
 	background-color: #EEEEEE;
-	list-style-image: url(https://assets.creativeweblogic.net/admin/images/arrow2.gif);
+	list-style-image: url(https://static-assets.site/admin/images/arrow2.gif);
 	margin-left: 5px;
 	padding-left: 5px;
 	margin-bottom: 3px;
@@ -194,7 +194,7 @@ div#mainmenu  {
 #mainmenu div a:link, #mainmenu ul a:active, #mainmenu ul a:visited {
 	color: #58668D;
 	text-decoration: none;
-	list-style-image: url(https://assets.creativeweblogic.net/admin/images/arrow1.gif);
+	list-style-image: url(https://static-assets.site/admin/images/arrow1.gif);
 }
 #mainmenu ul a:hover {
 	color: #6979A3;
@@ -227,7 +227,7 @@ div#structure  {
 .rightbg {
 	border: 1px solid #C9CACA;
 	background-color:#FFF;
-	background-image:url(https://assets.creativeweblogic.net/admin/images/content-bg.jpg);
+	background-image:url(https://static-assets.site/admin/images/content-bg.jpg);
 	background-repeat:repeat-x;
 }
 /*===========================================MENU=====================================================*/
@@ -353,7 +353,7 @@ div, td, p {
 #ManagementHeader{
 	height:75px;
 	width:100%;
-	background-image: url(https://assets.creativeweblogic.net/admin/images/logo-bcmslite-big.jpg);
+	background-image: url(https://static-assets.site/admin/images/logo-bcmslite-big.jpg);
 	background-repeat:no-repeat;
 }
 #ManagementHeaderLeftColumn{
@@ -378,14 +378,14 @@ div, td, p {
 }
 
 #MainMenuManagement{
-	background: #000 url(https://assets.creativeweblogic.net/admin/images/menu-left-tab.gif) left top no-repeat;
+	background: #000 url(https://static-assets.site/admin/images/menu-left-tab.gif) left top no-repeat;
 	height:32px;
 	text-align:left;
 	color:#303030;
 }
 
 #ManagementMainMenu{
-	background: url(https://assets.creativeweblogic.net/admin/images/menu-right-tab.gif) right top no-repeat;
+	background: url(https://static-assets.site/admin/images/menu-right-tab.gif) right top no-repeat;
 
 	height:26px;
 	padding-top:7px;
@@ -412,7 +412,7 @@ padding-bottom: 10px;
 #ManagementMainMenu a:hover
 {
 color: #000;
-background: #FFF url(https://assets.creativeweblogic.net/admin/images/left-tab-hover.gif) left top no-repeat;
+background: #FFF url(https://static-assets.site/admin/images/left-tab-hover.gif) left top no-repeat;
 padding-left: 10px;
 padding-top: 6px;
 padding-bottom: 10px;
@@ -420,7 +420,7 @@ padding-bottom: 10px;
 
 #ManagementMainMenu a:hover span
 {
-background: url(https://assets.creativeweblogic.net/admin/images/right-tab-hover.gif) right top no-repeat;
+background: url(https://static-assets.site/admin/images/right-tab-hover.gif) right top no-repeat;
 padding-right: 10px;
 padding-top: 6px;
 padding-bottom: 10px;
