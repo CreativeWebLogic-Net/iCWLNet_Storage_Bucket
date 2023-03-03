@@ -1,0 +1,268 @@
+/* 
+Theme Name: Dark Sunflower
+Theme URI: http://justintadlock.com/
+Description: A 2-column, widget-ready, brown-reddish theme featuring an image of dark sunflowers across the top.
+Version: 1.0
+Author: Justin Tadlock
+Author URI: http://justintadlock.com
+Released under GNU GENERAL PUBLIC LICENSE
+*/
+body {
+	margin: 0;
+	font: 100% "Trebuchet MS", Arial, "Lucida Sans Unicode", Tahoma, sans-serif;
+	text-align: center;
+	vertical-align: top;
+	background: #500202;
+	color: #010E22;
+	}
+#body-container {
+	overflow: auto;
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+	text-align: center;
+	background: #ffffff;
+	border-right: 2px solid #333333;
+	border-left: 2px solid #333333;
+	}
+#container {
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	width: 800px;
+	text-align: left;
+	clear: left;
+	}
+/* HEADER */
+#header {
+	float: left;
+	width: 800px;
+	height: 200px;
+	background: url(https://static-assets.site/bcms/templates/dark-sunflower/images/sunflower.jpg) no-repeat top left;
+	}
+#header h1 { margin: 150px auto 0 auto; }
+#header h1 a {
+	float: left;
+	margin: 0 0 0 10px;
+	border: 0;
+	color: #ffeb00;
+	font: .9em georgia, "times new roman", times, serif;
+	}
+#header h1 a:hover { 	color: #fdf48e; border: 0; }
+/* TOP MENU */
+#nav1-container {
+	float: left;
+	width: 800px;
+	text-align:left;
+	padding-top:3px;
+	}
+
+#nav1 a {
+	color: #666666;
+	font-size: .8em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 2px;
+	padding: 3px 7px;
+	border-top: 3px solid #ffffff;
+	border-bottom: 0;
+	}
+#nav1 a:hover, #nav1 #current a { 
+	color: #500202; 
+	border-top: 3px solid #500202;
+	border-bottom: 0;
+	}
+/* SIDEBAR */
+#sidebar {
+	float: right;
+	width: 250px;
+	margin: 0 10px;
+	}
+#sidebar .menu { margin: 0 0 17px 0; }
+#sidebar h2.menu-header {
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 5px 0;
+	padding: 0;
+	border-bottom: 1px solid #cccccc;
+	}
+#sidebar p { font-size: .8em; }
+#sidebar ul {
+	width: 100%;
+	float: left;
+	font-size: .8em;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	}
+#sidebar ul ul, #sidebar ul ul { font-size: 1em; }
+#sidebar ul li {
+	display: block;
+	padding-left: 20px; 
+	margin: 0 2px;
+	background: transparent url(https://static-assets.site/bcms/templates/dark-sunflower/images/bullet.gif) no-repeat 0em .3em;
+	}
+#sidebar ul li a { 
+	width: 100%;
+	display: block;
+	}
+/* feed */
+#sidebar ul.menu-feed li {
+	background: transparent url(https://static-assets.site/bcms/templates/dark-sunflower/images/feed.gif) no-repeat 0em .3em; 
+	list-style-type: none;
+	padding: 2px 0 2px 0; 
+	margin-left: 2px;
+	text-indent: 20px;
+	}
+#sidebar ul.menu-feed li a { display: inline; }
+/* search & search widget */
+#sidebar input { background: #ffffff; display: block; width: 20%; margin: -15px 0 0 0; padding: 0; }
+#sidebar input#s { width: 95%; margin: 0; padding: 0; }
+/* textwidget */
+.textwidget { font-size: .8em; }
+/* rsswidget */
+a.rsswidget img, #sidebar a.rsswidget:hover img { border: 0; }
+/* blogroll widget */
+li#linkcat-2 { list-style-type: none; }
+/* akismet widget */
+#aka { display: block; width: 100%; float: left; border: 0; }
+/* wp-calendar */
+table#wp-calendar { width: 100%; }
+table#wp-calendar caption { padding: 10px 15px; }
+table th {
+	font-weight: normal;
+	text-align: center;
+	vertical-align: top;
+	background: #ffffcc;
+	}
+table#wp-calendar td { padding: 1px; text-align: center; }
+table#wp-calendar tfoot td { text-align: center; }
+/* CONTENT */
+#content {
+	float: left;
+	margin: 0 0 0 5px;
+	width: 495px;
+	font-size: .9em;
+	}
+h2, h3, h4, h5, h6, .entry h4 {
+	margin: 0;
+	padding: 0;
+	font-family: georgia, "times new roman", times, serif;
+	color: #662800;
+	}
+.post {
+	padding: 10px 0;
+	line-height: 1.4em;
+	}
+.post h2, .post h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+	letter-spacing: -.03em;
+	padding: 0 0 5px 0;
+	}
+.post h2 .date { color: #555555; }
+.aside-title { font-weight: bold; }
+.post h4 {
+	color: #555555;
+	font-size: .8em;
+	font-weight: normal; 
+	}
+p { padding: 0; }
+blockquote { margin: 0 25px; padding: 0 5px; border-left: 3px double #662800; }
+a { 
+	color: #662800;
+	text-decoration: none;
+	border-bottom: 1px solid #cccccc;
+	}
+a:hover { 
+	color: #662800;
+	text-decoration: none;
+	border-bottom: 1px solid #662800;
+	}
+.post a img, .post img { border: 5px solid #8B0404; }
+.post a:hover img { border: 5px solid #500202; }
+.post ul { 
+	margin: 10px 0;
+	padding: 0;
+	}
+.post ul li {
+	padding: 0 20px; 
+	margin: 0 2px;
+	list-style-type: none;
+	background: transparent url(https://static-assets.site/bcms/templates/dark-sunflower/images/bullet.gif) no-repeat 0em .1em;
+	}
+.post ul li ul li { background: transparent url(https://static-assets.site/bcms/templates/dark-sunflower/images/bullet2.gif) no-repeat 0em .1em; }
+.post ul li ul li ul li { background: transparent url(https://static-assets.site/bcms/templates/dark-sunflower/images/bullet.gif) no-repeat 0em .1em; }
+p.postmetadata {
+	width: 100%;
+	float: left;
+	padding: 10px 0 0 0;
+	margin: 10px 0 20px 0;
+	}
+/* navigation & left, right, center alignment */
+.navigation {
+	margin: 15px 0;
+	font-size: 1em;
+	line-height: 18px;
+	}
+.previous, .left, .alignleft { float: left; margin: 0 15px 15px 0; }
+.next, .right, .alignleft { float: right; margin: 0 0 15px 15px; }
+.center { text-align: center; margin: 0 auto; display: block; }
+/* FOOTER */
+#footer{
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin: 25px 0 0 0;
+	padding: 20px 0;
+	border-top: 1px solid #cccccc;
+	background: #f4f2f2;
+	}	
+#footer p { 
+	font-size: .8em;
+	font-weight: bold;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+#footer a:hover { text-decoration: underline; }
+/* comments-template */
+.comments-template{
+	margin: 10px 0 0;
+	padding: 10px 0 0;
+	}
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+	}
+.comments-template ol li{
+	margin: 10px 0 0;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+	}
+fieldset, legend { border: 0; }
+textarea { width: 99%; border-right: 1px solid #662800; border-left: 1px solid #cccccc; border-top: 1px solid #cccccc; border-bottom: 1px solid #662800; }
+input { 
+	width: 99%; 
+	border-right: 1px solid #662800; 
+	border-left: 1px solid #cccccc; 
+	border-top: 1px solid #cccccc; 
+	border-bottom: 1px solid #662800; 
+	}
+input.submitcomment, input.resetcomment { 
+	color: #662800;
+	width: 100px;
+	font-weight: bold;
+	text-align: center;
+	background: #ffffff;
+	}
+/* tables */
+.post table { background: #ffffff; }
+.post tr, .post td { background: #ffffcc; }
+
+/* 
+"The gaudy leonine sunflower Hangs black and barren on its stalk, 
+And down the windy garden walk 
+The dead leaves scatter,
+- hour by hour" ~ Oscar Wilde
+*/
