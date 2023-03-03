@@ -1,0 +1,87 @@
+#ProductRow {
+	border: 1px solid #CCD4E5;
+}
+
+.main_border {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #7eca4e;
+	border-left-color: #FFFFFF;
+	border-top-style: none;
+	border-bottom-style: solid;
+}
+.top-links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.menu_right_bottom {
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #7eca4e;
+	border-right-color: #7eca4e;
+	border-bottom-color: #7eca4e;
+	border-left-color: #7eca4e;
+}
+.main_menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-left: 4px;
+	text-align: center;
+}
+.main_menu a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.main_menu a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.main_menu a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #81d736;
+	font-weight: normal;
+}
+.main_menu a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #81d736;
+}
+.content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #405175;
+	padding-right: 6px;
+	padding-left: 6px;
+	background-image: url(https://assets.creaiveweblogic.net/bcms/templates/toho9000/Pics/content_background.gif);
+	background-repeat: repeat-x;
+}
+.contentBig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #405175;
+}
+.image_padding {
+	padding: 6px;
+}
+.borders {
+	border: 1px solid #666666;
+}
